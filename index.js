@@ -27,7 +27,7 @@ const server = app.listen(process.env.PORT || 5000, () =>
 
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://whimsical-dolphin-08c677.netlify.app",
     credentials: true,
   },
 });
